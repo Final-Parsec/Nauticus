@@ -1,0 +1,24 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\TileMap.cs">
+    <Files>
+      <File FileName="Assets\Game Objects\HoverObject.cs" Line="16" Column="3" />
+      <File FileName="Assets\Game Objects\Boat.cs" Line="1" Column="1" />
+      <File FileName="Assets\Game Objects\HoverBoat.cs" Line="17" Column="1" />
+      <File FileName="Assets\WorldTile.cs" Line="125" Column="20" />
+      <File FileName="Assets\Game Objects\GameObjectBase.cs" Line="1" Column="1" />
+      <File FileName="Assets\Game Objects\Fog.cs" Line="1" Column="1" />
+      <File FileName="Assets\Game Objects\House.cs" Line="1" Column="1" />
+      <File FileName="Assets\Game Objects\BuildingBase.cs" Line="1" Column="1" />
+      <File FileName="Assets\Game Objects\UnitGod.cs" Line="25" Column="31" />
+      <File FileName="Assets\EventHandler.cs" Line="70" Column="4" />
+      <File FileName="Assets\PlunderedOverlay.cs" Line="44" Column="44" />
+      <File FileName="Assets\HUD.cs" Line="10" Column="3" />
+      <File FileName="Assets\TileMap.cs" Line="78" Column="33" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

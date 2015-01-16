@@ -1,0 +1,108 @@
+fileFormatVersion: 2
+guid: 62da7c7749a82d64eab0a5f06a3663e6
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Piro running grid_0
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 719
+        width: 208
+        height: 299
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Piro running grid_1
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 718
+        width: 200
+        height: 298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Piro running grid_2
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 719
+        width: 242
+        height: 299
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Piro running grid_3
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 364
+        width: 225
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Piro running grid_4
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 363
+        width: 209
+        height: 305
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Piro running grid_5
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 364
+        width: 240
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Piro running grid_6
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 8
+        width: 229
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+  spritePackingTag: 
+  userData: 

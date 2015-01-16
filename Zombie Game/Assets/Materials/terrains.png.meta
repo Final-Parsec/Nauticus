@@ -1,0 +1,171 @@
+fileFormatVersion: 2
+guid: e27c23135c0e2b540aa70f9822aae372
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 1
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 512
+  textureSettings:
+    filterMode: 0
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 1
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 0
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spritePixelsToUnits: 32
+  alphaIsTransparency: 1
+  textureType: 5
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: water
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: wall
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: floor
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: bed1
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: treeGrow1
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 430
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: treeGrow2
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 426
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: treeGrow3
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 424
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: treeGrow4
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 419
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: treeGrow5
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 414
+        width: 67
+        height: 62
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: tree1
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 284
+        width: 102
+        height: 114
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: tree2
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 283
+        width: 109
+        height: 114
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: tree3
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 285
+        width: 102
+        height: 106
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: bed2
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: mountain
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+  spritePackingTag: 
+  userData: 

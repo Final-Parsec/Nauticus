@@ -1,0 +1,16 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Game Objects\Unit.cs">
+    <Files>
+      <File FileName="Assets\Game Objects\Hut.cs" Line="14" Column="3" />
+      <File FileName="Assets\Game Objects\GameObjectBase.cs" Line="17" Column="22" />
+      <File FileName="Assets\WorldTile.cs" Line="146" Column="5" />
+      <File FileName="Assets\Game Objects\UnitGod.cs" Line="116" Column="22" />
+      <File FileName="Assets\Game Objects\Unit.cs" Line="177" Column="32" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

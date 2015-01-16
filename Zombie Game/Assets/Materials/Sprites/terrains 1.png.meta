@@ -1,0 +1,290 @@
+fileFormatVersion: 2
+guid: 293fa490b2a680147b8aa38024d06dd2
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: water
+    21300002: wall
+    21300004: floor
+    21300006: bed1
+    21300008: treeGrow1
+    21300010: treeGrow2
+    21300012: treeGrow3
+    21300014: treeGrow4
+    21300016: treeGrow5
+    21300018: tree1
+    21300020: tree2
+    21300022: tree3
+    21300024: bed2
+    21300026: mountain
+    21300028: boat
+    21300030: zombie_walk1
+    21300032: zombie_walk2
+    21300034: zombie_walk3
+    21300036: zombie_walk4
+    21300038: zombie_walk5
+    21300040: zombie_walk6
+    21300042: zombie_walk7
+    21300044: zombie_walk8
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: 0
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 32
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: water
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 481
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wall
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 479
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: floor
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 479
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bed1
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 479
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: treeGrow1
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 430
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: treeGrow2
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 426
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: treeGrow3
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 424
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: treeGrow4
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 419
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: treeGrow5
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 414
+        width: 67
+        height: 62
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tree1
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 284
+        width: 102
+        height: 114
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tree2
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 283
+        width: 109
+        height: 114
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tree3
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 285
+        width: 102
+        height: 106
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bed2
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 479
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boat
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 480
+        width: 128
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: zombie_walk1
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 553
+        width: 55
+        height: 92
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: zombie_walk2
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 561
+        width: 54
+        height: 86
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: zombie_walk3
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 550
+        width: 55
+        height: 101
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: zombie_walk4
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 545
+        width: 54
+        height: 102
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: zombie_walk5
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 559
+        width: 52
+        height: 86
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: zombie_walk6
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 555
+        width: 55
+        height: 89
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: zombie_walk7
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 555
+        width: 54
+        height: 88
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: zombie_walk8
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 550
+        width: 56
+        height: 93
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

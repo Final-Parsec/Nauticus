@@ -1,0 +1,15 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Singleton\Singleton.cs">
+    <Files>
+      <File FileName="Assets\Menu Scripts\Menu_Logic.cs" Line="34" Column="1" />
+      <File FileName="Assets\Menu Scripts\Class_Menu_Script.cs" Line="48" Column="21" />
+      <File FileName="Assets\actors\PirateHero.cs" Line="44" Column="1" />
+      <File FileName="Assets\Singleton\Singleton.cs" Line="21" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

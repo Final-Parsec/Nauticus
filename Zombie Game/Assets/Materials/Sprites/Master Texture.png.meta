@@ -1,0 +1,666 @@
+fileFormatVersion: 2
+guid: d91dd7277b4165e4098ea21bf791a908
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: 0
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spritePixelsToUnits: 32
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Boat
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 3955
+        width: 71
+        height: 133
+      alignment: 9
+      pivot: {x: .433618039, y: .556122363}
+    - name: PiratePeonB1
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 4046
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: PiratePeonB2
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 4046
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: PiratePeonB3
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 4046
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: PiroB1
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 4046
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: PiroB2
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 4046
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: PiroB3
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 4046
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: PiratePeonR1
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 4028
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: PiratePeonR2
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 4028
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: PiratePeonR3
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 4028
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: PiroR1
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 4028
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: PiroR2
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 4028
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: PiroR3
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 4028
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: PiratePeonF1
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 4010
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: PiratePeonF2
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 4010
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: PiratePeonF3
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 4010
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: PiroF1
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 4010
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: PiroF2
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 4010
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: PiroF3
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 4010
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: PiratePeonL1
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 3992
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: PiratePeonL2
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 3992
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: PiratePeonL3
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 3992
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: PiroL1
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 3992
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: PiroL2
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 3992
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: PiroL3
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 3992
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: PiratePeonFace
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 3931
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: PiroFace
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 3931
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: ZombiePeonF1
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 3859
+        width: 30
+        height: 41
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: ZombiePeonF2
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 3860
+        width: 28
+        height: 41
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: ZombiePeonF3
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 3859
+        width: 29
+        height: 41
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: ZombieCaptainF1
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 3851
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: ZombieCaptainF2
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 3851
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: ZombieCaptainF3
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 3850
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: ZombiePeonL1
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 3795
+        width: 24
+        height: 41
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: ZombiePeonL2
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 3796
+        width: 24
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: ZombiePeonL3
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 3796
+        width: 24
+        height: 41
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: ZombieCaptainL1
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 3787
+        width: 24
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: ZombieCaptainL2
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 3787
+        width: 21
+        height: 44
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: ZombieCaptainL3
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 3786
+        width: 23
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: ZombiePeonR1
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 3731
+        width: 24
+        height: 41
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: ZombiePeonR2
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 3732
+        width: 24
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: ZombiePeonR3
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 3732
+        width: 24
+        height: 41
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: ZombieCaptainR1
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 3723
+        width: 24
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: ZombieCaptainR2
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 3723
+        width: 21
+        height: 44
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: ZombieCaptainR3
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 3722
+        width: 23
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: ZombiePeonB1
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 3667
+        width: 28
+        height: 43
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: ZombiePeonB2
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 3668
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: ZombiePeonB3
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 3667
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: ZombieCaptainB1
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 3659
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: ZombieCaptainB2
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 3659
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: ZombieCaptainB3
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 3657
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: ZombiePeonFace
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 3591
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: ZombieCaptainFace
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 3589
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Tree11
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 3413
+        width: 58
+        height: 59
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: youngTree12
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 3413
+        width: 60
+        height: 59
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Tree13
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 3413
+        width: 60
+        height: 59
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Tree14
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 3413
+        width: 60
+        height: 59
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Tree21
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 3412
+        width: 55
+        height: 64
+      alignment: 9
+      pivot: {x: .525826216, y: .17817688}
+    - name: Tree22
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 3412
+        width: 56
+        height: 64
+      alignment: 9
+      pivot: {x: .502146065, y: .178173065}
+    - name: Tree23
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 3412
+        width: 56
+        height: 64
+      alignment: 9
+      pivot: {x: .512683332, y: .189273834}
+    - name: Tree24
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 3412
+        width: 55
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: Tree31
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 3290
+        width: 64
+        height: 96
+      alignment: 9
+      pivot: {x: .533290863, y: .189275101}
+    - name: Tree32
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 3290
+        width: 64
+        height: 96
+      alignment: 9
+      pivot: {x: .522194862, y: .181877136}
+    - name: Tree33
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 3290
+        width: 64
+        height: 96
+      alignment: 9
+      pivot: {x: .511097908, y: .19667308}
+    - name: Tree34
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 3290
+        width: 64
+        height: 96
+      alignment: 9
+      pivot: {x: .511096954, y: .181877136}
+    - name: Tree41
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 3130
+        width: 112
+        height: 129
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
+    - name: Tree42
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 3130
+        width: 112
+        height: 129
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
+    - name: Tree43
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 3130
+        width: 112
+        height: 129
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
+    - name: Tree44
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 3130
+        width: 112
+        height: 129
+      alignment: 9
+      pivot: {x: .5, y: .200000003}
+  spritePackingTag: 
+  userData: 

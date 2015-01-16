@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 6cd683069b664e34397283f8a85d2c57
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - terrainTiles: {instanceID: 0}
+  - Piro: {fileID: 100000, guid: a65a41a39f7b4744f950bd9f116f576b, type: 2}
+  - Enemy: {fileID: 100000, guid: def407da9c86ef747a293c66fcfbaa5e, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
