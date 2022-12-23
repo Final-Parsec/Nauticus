@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 
 [RequireComponent(typeof(Animator))]
@@ -35,8 +36,8 @@ public class PlayerControl : MonoBehaviour {
 				health = 0;
 				StartCoroutine(TurnOnPlunderedOverlay());
 				InvokeRepeating("DeathAnimation", 0f, .1f);
-				GameObject.Find ("plundered_text").guiText.enabled = true;
-				audio.mute = true;
+				GameObject.Find("plundered_text").GetComponent<Text>().enabled = true;
+				GetComponent<AudioSource>().mute = true;
 			}
 			else if (value > 100) {
 				health = 100;
@@ -106,7 +107,7 @@ public class PlayerControl : MonoBehaviour {
 		// Piro has stepped on the final tile and wins the game.
 		if (currentTileType == 0) {
 			StartCoroutine(TurnOnMenuBackgroundOverlay());
-			GameObject.Find ("victory_text").guiText.enabled = true;
+			// GameObject.Find ("victory_text").guiText.enabled = true;
 			IsInGame = false;
 		}
 	}

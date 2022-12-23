@@ -25,7 +25,7 @@ public class ZombieMovement : MonoBehaviour {
 	{
 		int damage = Random.Range (10, 20);
 		piroThePirateHero.Health -= damage;
-		piroThePirateHero.audio.Play();		
+		piroThePirateHero.GetComponent<AudioSource>().Play();		
 		
 		if (bloodyOverlay)
 		{
