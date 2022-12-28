@@ -107,7 +107,7 @@ public class PlayerControl : MonoBehaviour {
 		// Piro has stepped on the final tile and wins the game.
 		if (currentTileType == 0) {
 			StartCoroutine(TurnOnMenuBackgroundOverlay());
-			// GameObject.Find ("victory_text").guiText.enabled = true;
+			GameObject.Find ("victory_text").GetComponent<Text>().enabled = true;
 			IsInGame = false;
 		}
 	}
