@@ -10,7 +10,7 @@ public class Menu_Logic : MonoBehaviour {
 		_camera = GameObject.Find("Main Camera").GetComponent<Menu_Camera_Logic>();
 		engageCameraSlide (0);
 		pirateHero = GetComponent<AudioSource> ();
-		audio.Play ();
+		GetComponent<AudioSource>().Play ();
 	}
 	
 	// Update is called once per frame

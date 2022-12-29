@@ -19,7 +19,7 @@ public class TileMapMouse : MonoBehaviour {
 		Ray ray = Camera.main.ScreenPointToRay( Input.mousePosition );
 		RaycastHit hitInfo;
 		
-		if( collider.Raycast( ray, out hitInfo, Mathf.Infinity ) ) {
+		if( GetComponent<Collider>().Raycast( ray, out hitInfo, Mathf.Infinity ) ) {
 			int x = Mathf.FloorToInt( hitInfo.point.x / _tileMap.tileSize);
 			int z = Mathf.FloorToInt( hitInfo.point.z / _tileMap.tileSize);
 			//Debug.Log ("Tile: " + x + ", " + z);

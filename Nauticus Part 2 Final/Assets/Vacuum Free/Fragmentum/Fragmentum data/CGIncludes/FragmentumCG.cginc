@@ -1,3 +1,5 @@
+// Upgrade NOTE: replaced '_Object2World' with 'unity_ObjectToWorld'
+
 #ifndef VACUUM_FRAGMENTUM_CG_INCLUDED
 #define VACUUM_FRAGMENTUM_CG_INCLUDED
 
@@ -97,7 +99,7 @@ inline void ScaleFragment(inout float3 vertex, int index, half amount)
 
 inline float3 V_FR_WorldSpaceViewDir( in float4 v )
 {
-	return _WorldSpaceCameraPos.xyz - mul(_Object2World, v).xyz;
+	return _WorldSpaceCameraPos.xyz - mul(unity_ObjectToWorld, v).xyz;
 }
 
 //Functions
@@ -129,7 +131,7 @@ void vert (inout appdata_full v, out Input o)
 		float fragmentFactor = 1;
 
 		#if defined(V_FR_ACTIVATOR_PLANE)
-			float4 worldPos = mul(_Object2World, float4(buf_Center[index], 1));
+			float4 worldPos = mul(unity_ObjectToWorld, float4(buf_Center[index], 1));
 			float3 toP = worldPos - _PlanePos; 
 			float planeMult = dot(normalize(_PlaneRot), toP);
 			
@@ -147,7 +149,7 @@ void vert (inout appdata_full v, out Input o)
 		#endif
 
 		#if defined(V_FR_ACTIVATOR_SPHERE)
-			float3 worldPos = mul(_Object2World, float4(buf_Center[index], 1)).xyz;
+			float3 worldPos = mul(unity_ObjectToWorld, float4(buf_Center[index], 1)).xyz;
 			float3 spherePos = _SphereObject.xyz;
 			float sphereRadius = _SphereObject.w;
 

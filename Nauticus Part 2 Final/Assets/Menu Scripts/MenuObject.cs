@@ -11,7 +11,7 @@ public class MenuObject : MonoBehaviour {
 	public bool isQuit = false;
 
 	void OnMouseEnter(){
-		renderer.material.color = Color.red;
+		GetComponent<Renderer>().material.color = Color.red;
 	}
 
 	// Use this for initialization
@@ -33,7 +33,7 @@ public class MenuObject : MonoBehaviour {
 	/// Raises the mouse exit event.
 	/// </summary>
 	void OnMouseExit(){
-		renderer.material.color = Color.white;
+		GetComponent<Renderer>().material.color = Color.white;
 	}
 
 	/// <summary>
