@@ -7,7 +7,7 @@ namespace Zombies{
 		public float minWaypointDisplacement = .1f;
 		public int currentWayPoint = 0;
 		public List<WorldTile> path = null;
-		public GUITexture selectedImage;
+		//public GUITexture selectedImage;
 
 		// Unit attributes
 		public float speed = 10;
