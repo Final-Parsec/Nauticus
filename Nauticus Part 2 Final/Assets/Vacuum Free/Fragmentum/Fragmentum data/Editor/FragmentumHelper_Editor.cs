@@ -24,6 +24,6 @@ public class FragmentumHelper_Editor : Editor
         Handles.DrawSolidDisc(_target.transform.position, _target.transform.up, size);
 
         Handles.color = new Color(1, 1, 1, 0.7f);
-        Handles.ArrowCap(0, _target.transform.position, Quaternion.LookRotation(_target.transform.up), size);
+        //Handles.ArrowCap(0, _target.transform.position, Quaternion.LookRotation(_target.transform.up), size);
     }	
 }

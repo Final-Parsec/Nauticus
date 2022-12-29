@@ -32,7 +32,7 @@ public class Fragmentum_Editor : Editor
             error = V_FR_ERROR.InvalidRenderer;
         }
 
-        if (_target.renderer.sharedMaterials.Length == 0)
+        if (_target.GetComponent<Renderer>().sharedMaterials.Length == 0)
         {
             error = V_FR_ERROR.NoMaterials;
         }
@@ -79,7 +79,7 @@ public class Fragmentum_Editor : Editor
             GUILayout.Space(10);
 
             string fragmentumTag = "FragmentumTag";
-            string tag = _target.renderer.sharedMaterial.GetTag(fragmentumTag, false, "nothing");
+            string tag = _target.GetComponent<Renderer>().sharedMaterial.GetTag(fragmentumTag, false, "nothing");
 
             if (tag.IndexOf("Fragmentum") == -1)
             {
@@ -166,7 +166,7 @@ public class Fragmentum_Editor : Editor
             if (_target.planeObject.gameObject.GetComponent<FragmentumHelper>() == null)
                 _target.planeObject.gameObject.AddComponent<FragmentumHelper>();
 
-            Handles.DrawLine(_target.renderer.bounds.center, _target.planeObject.position);
+            Handles.DrawLine(_target.GetComponent<Renderer>().bounds.center, _target.planeObject.position);
             Handles.Label(_target.planeObject.position, "  Plane helper", textStyle);
         }
 
@@ -175,7 +175,7 @@ public class Fragmentum_Editor : Editor
             if (_target.sphereObject.gameObject.GetComponent<FragmentumHelper>() == null)
                 _target.sphereObject.gameObject.AddComponent<FragmentumHelper>();
 
-            Handles.DrawLine(_target.renderer.bounds.center, _target.sphereObject.position);
+            Handles.DrawLine(_target.GetComponent<Renderer>().bounds.center, _target.sphereObject.position);
             Handles.Label(_target.sphereObject.position, "  Sphere helper", textStyle);
             _target.sphereObjectRadius = Handles.RadiusHandle(Quaternion.identity, _target.sphereObject.position, _target.sphereObjectRadius);
         }
@@ -187,7 +187,7 @@ public class Fragmentum_Editor : Editor
         if (error != V_FR_ERROR.Ok)
             return;
 
-        string matName = _target.renderer.sharedMaterial.ToString();
+        string matName = _target.GetComponent<Renderer>().sharedMaterial.ToString();
 
         if (matName.IndexOf("null") != -1)
         {
@@ -196,7 +196,7 @@ public class Fragmentum_Editor : Editor
         }
 
         string fragmentumTag = "FragmentumTag";
-        string tag = _target.renderer.sharedMaterial.GetTag(fragmentumTag, false, "nothing");
+        string tag = _target.GetComponent<Renderer>().sharedMaterial.GetTag(fragmentumTag, false, "nothing");
 
         if(tag.IndexOf("Fragmentum") == -1)
         {
@@ -300,7 +300,7 @@ public class Fragmentum_Editor : Editor
             return;
 
 
-        Material targetMat = _target.renderer.sharedMaterial;
+        Material targetMat = _target.GetComponent<Renderer>().sharedMaterial;
 
         List<string> keywords = new List<string>();
                     

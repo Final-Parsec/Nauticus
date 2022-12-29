@@ -14,14 +14,14 @@ public class Menu_Picaroon : MonoBehaviour {
 	/// Raises the mouse enter event.
 	/// </summary>
 	void OnMouseEnter(){
-		renderer.material.color = Color.red;
+		GetComponent<Renderer>().material.color = Color.red;
 	}
 	
 	/// <summary>
 	/// Raises the mouse exit event.
 	/// </summary>
 	void OnMouseExit(){
-		renderer.material.color = Color.white;
+		GetComponent<Renderer>().material.color = Color.white;
 	}
 	
 	void OnMouseUp(){

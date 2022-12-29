@@ -21,7 +21,7 @@ public class PlayerLight : MonoBehaviour {
 
 	private void flicker(){
 		if (Random.value > 0.9){
-			light.range = (Random.value * 52) + 60;
+			GetComponent<Light>().range = (Random.value * 52) + 60;
 		}
 	}
 	
