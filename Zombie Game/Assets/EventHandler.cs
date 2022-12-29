@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UI;
 using System.Collections.Generic;
 using System.Collections;
 using System.Linq;
@@ -75,7 +76,7 @@ namespace Zombies{
 			if(_unitGod.playerUnits.Count==0){
 				if (overlay == null){
 					overlay = GameObject.Find("plundered_overlay").GetComponent<PlunderedOverlay>();
-					// overlay.guiTexture.pixelInset = new Rect(0,0,Screen.width*2,2*Screen.height);
+					GameObject.Find("plundered_text").GetComponent<Text>().enabled = true;
 					overlay.Fade(0.0,.35,5.0);
 				}
 				return;
