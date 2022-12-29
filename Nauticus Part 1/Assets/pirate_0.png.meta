@@ -1,32 +1,88 @@
 fileFormatVersion: 2
 guid: f3dfc0aca6dee98459dc10335190def7
 TextureImporter:
-  serializedVersion: 2
+  internalIDToNameTable:
+  - first:
+      213: -7955025427698987394
+    second: pirate_0_0
+  - first:
+      213: 501288239072626958
+    second: pirate_0_1
+  - first:
+      213: -1030610945266631150
+    second: pirate_0_2
+  - first:
+      213: 2447754131603287634
+    second: pirate_0_3
+  - first:
+      213: 8229373952783430342
+    second: pirate_0_4
+  - first:
+      213: 5441595735781896296
+    second: pirate_0_5
+  - first:
+      213: 2336262381743385255
+    second: pirate_0_6
+  - first:
+      213: 17143925527326147
+    second: pirate_0_7
+  - first:
+      213: 8684167049071259552
+    second: pirate_0_8
+  - first:
+      213: -7909726485229866914
+    second: pirate_0_9
+  - first:
+      213: 6694361107948992857
+    second: pirate_0_10
+  - first:
+      213: 5777305483873044222
+    second: pirate_0_11
+  - first:
+      213: 1608822021234368327
+    second: pirate_0_12
+  - first:
+      213: 2056264625217301824
+    second: pirate_0_13
+  - first:
+      213: 2600751376285781801
+    second: pirate_0_14
+  externalObjects: {}
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
+    sRGBTexture: 1
     linearTexture: 0
-    correctGamma: 0
     fadeOut: 0
     borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
     mipMapFadeDistanceStart: 1
     mipMapFadeDistanceEnd: 3
   bumpmap:
     convertToNormalMap: 0
     externalNormalMap: 0
-    heightScale: .25
+    heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
   grayScaleToAlpha: 0
-  generateCubemap: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
   seamlessCubemap: 0
   textureFormat: -1
   maxTextureSize: 1024
   textureSettings:
-    filterMode: -1
+    serializedVersion: 2
+    filterMode: 1
     aniso: 1
-    mipBias: -1
-    wrapMode: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -34,14 +90,41 @@ TextureImporter:
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
-  spritePivot: {x: .5, y: .5}
+  spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
   alphaIsTransparency: 1
+  spriteTessellationDetail: -1
   textureType: 8
-  buildTargetSettings: []
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
+    serializedVersion: 2
     sprites:
-    - name: pirate_0_0
+    - serializedVersion: 2
+      name: pirate_0_0
       rect:
         serializedVersion: 2
         x: 0
@@ -50,7 +133,19 @@ TextureImporter:
         height: 275
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: pirate_0_1
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7e4dc265821a9190800000000000000
+      internalID: -7955025427698987394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate_0_1
       rect:
         serializedVersion: 2
         x: 195
@@ -59,7 +154,19 @@ TextureImporter:
         height: 275
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: pirate_0_2
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e09410c5ffee4f600800000000000000
+      internalID: 501288239072626958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate_0_2
       rect:
         serializedVersion: 2
         x: 390
@@ -68,7 +175,19 @@ TextureImporter:
         height: 275
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: pirate_0_3
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21eb0c14ec882b1f0800000000000000
+      internalID: -1030610945266631150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate_0_3
       rect:
         serializedVersion: 2
         x: 585
@@ -77,7 +196,19 @@ TextureImporter:
         height: 275
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: pirate_0_4
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25e65b7f96b28f120800000000000000
+      internalID: 2447754131603287634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate_0_4
       rect:
         serializedVersion: 2
         x: 780
@@ -86,7 +217,19 @@ TextureImporter:
         height: 275
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: pirate_0_5
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c2328b420c943270800000000000000
+      internalID: 8229373952783430342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate_0_5
       rect:
         serializedVersion: 2
         x: 0
@@ -95,7 +238,19 @@ TextureImporter:
         height: 275
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: pirate_0_6
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8607f8aad7e648b40800000000000000
+      internalID: 5441595735781896296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate_0_6
       rect:
         serializedVersion: 2
         x: 195
@@ -104,7 +259,19 @@ TextureImporter:
         height: 275
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: pirate_0_7
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7aa2ce512421c6020800000000000000
+      internalID: 2336262381743385255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate_0_7
       rect:
         serializedVersion: 2
         x: 390
@@ -113,7 +280,19 @@ TextureImporter:
         height: 275
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: pirate_0_8
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cdac173f48ec3000800000000000000
+      internalID: 17143925527326147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate_0_8
       rect:
         serializedVersion: 2
         x: 585
@@ -122,7 +301,19 @@ TextureImporter:
         height: 275
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: pirate_0_9
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0af6b02abeb548870800000000000000
+      internalID: 8684167049071259552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate_0_9
       rect:
         serializedVersion: 2
         x: 780
@@ -131,7 +322,19 @@ TextureImporter:
         height: 275
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: pirate_0_10
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e50ff515ba10b3290800000000000000
+      internalID: -7909726485229866914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate_0_10
       rect:
         serializedVersion: 2
         x: 0
@@ -140,7 +343,19 @@ TextureImporter:
         height: 275
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: pirate_0_11
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9597d7d95f527ec50800000000000000
+      internalID: 6694361107948992857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate_0_11
       rect:
         serializedVersion: 2
         x: 195
@@ -149,7 +364,19 @@ TextureImporter:
         height: 275
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: pirate_0_12
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef64b256abc1d2050800000000000000
+      internalID: 5777305483873044222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate_0_12
       rect:
         serializedVersion: 2
         x: 390
@@ -158,7 +385,19 @@ TextureImporter:
         height: 275
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: pirate_0_13
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74f108aba1fa35610800000000000000
+      internalID: 1608822021234368327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate_0_13
       rect:
         serializedVersion: 2
         x: 585
@@ -167,7 +406,19 @@ TextureImporter:
         height: 275
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: pirate_0_14
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04d674638c1598c10800000000000000
+      internalID: 2056264625217301824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate_0_14
       rect:
         serializedVersion: 2
         x: 780
@@ -176,5 +427,30 @@ TextureImporter:
         height: 275
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92f4f9ce899b71420800000000000000
+      internalID: 2600751376285781801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
   spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
+  assetBundleName: 
+  assetBundleVariant: 
