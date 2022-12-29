@@ -83,8 +83,7 @@ namespace Zombies{
 			}else if(_unitGod.Victory){
 				if (overlay == null){
 					overlay = GameObject.Find("victory_overlay").GetComponent<PlunderedOverlay>();
-					// overlay.guiTexture.pixelInset  = new Rect(0,0,Screen.width,Screen.height);
-					// GameObject.Find("plundered_text").guiText.text = "Act III Victory";
+					GameObject.Find("victory_text").GetComponent<Text>().enabled = true;
 					overlay.Fade(0.0,1,3.0);
 				}
 				return;
