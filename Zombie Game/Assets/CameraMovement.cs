@@ -54,16 +54,16 @@ namespace Zombies
 
 			// Zoom in/out with the scroll wheel.
 			if (Input.GetAxis("Mouse ScrollWheel") > 0){
-				if (camera.orthographicSize - scrollRate > scrollMinDistance)
-					camera.orthographicSize = camera.orthographicSize - scrollRate;
+				if (GetComponent<Camera>().orthographicSize - scrollRate > scrollMinDistance)
+					GetComponent<Camera>().orthographicSize = GetComponent<Camera>().orthographicSize - scrollRate;
 				else
-					camera.orthographicSize = scrollMinDistance;
+					GetComponent<Camera>().orthographicSize = scrollMinDistance;
 			}
 			if (Input.GetAxis("Mouse ScrollWheel") < 0){
-				if (camera.orthographicSize + scrollRate < scrollMaxDistance)
-					camera.orthographicSize = camera.orthographicSize + scrollRate;
+				if (GetComponent<Camera>().orthographicSize + scrollRate < scrollMaxDistance)
+					GetComponent<Camera>().orthographicSize = GetComponent<Camera>().orthographicSize + scrollRate;
 				else
-					camera.orthographicSize = scrollMaxDistance;
+					GetComponent<Camera>().orthographicSize = scrollMaxDistance;
 
 			}
 
@@ -80,7 +80,7 @@ namespace Zombies
 		}
 
 		public float GetDistanceRatio(){
-			return camera.orthographicSize / scrollMaxDistance;
+			return GetComponent<Camera>().orthographicSize / scrollMaxDistance;
 		}
 	
 	}

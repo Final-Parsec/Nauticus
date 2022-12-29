@@ -96,7 +96,7 @@ namespace Zombies
 			foreach (GameObjectBase gO in tileoccupants) {
 				if (gO is Fog) {
 					
-					return gO.renderer.enabled;
+					return gO.GetComponent<Renderer>().enabled;
 				}
 			}
 			return false;

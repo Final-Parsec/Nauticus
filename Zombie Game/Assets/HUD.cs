@@ -173,7 +173,7 @@ namespace Zombies{
 				                          10,
 				                          iconRect.height);
 
-				GUI.Label (iconRect, unit.selectedImage.texture);
+				// GUI.Label (iconRect, unit.selectedImage.texture);
 				GUI.Label (textRect, ""+unit.health, unitSelectStyle);
 
 				x++;

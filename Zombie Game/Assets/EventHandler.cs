@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UI;
 using System.Collections.Generic;
 using System.Collections;
 using System.Linq;
@@ -75,15 +76,14 @@ namespace Zombies{
 			if(_unitGod.playerUnits.Count==0){
 				if (overlay == null){
 					overlay = GameObject.Find("plundered_overlay").GetComponent<PlunderedOverlay>();
-					overlay.guiTexture.pixelInset = new Rect(0,0,Screen.width*2,2*Screen.height);
+					GameObject.Find("plundered_text").GetComponent<Text>().enabled = true;
 					overlay.Fade(0.0,.35,5.0);
 				}
 				return;
 			}else if(_unitGod.Victory){
 				if (overlay == null){
 					overlay = GameObject.Find("victory_overlay").GetComponent<PlunderedOverlay>();
-					overlay.guiTexture.pixelInset  = new Rect(0,0,Screen.width,Screen.height);
-					GameObject.Find("plundered_text").guiText.text = "Act III Victory";
+					GameObject.Find("victory_text").GetComponent<Text>().enabled = true;
 					overlay.Fade(0.0,1,3.0);
 				}
 				return;
@@ -95,7 +95,7 @@ namespace Zombies{
 			RaycastHit hitInfo;
 			WorldTile selectedTile = null;
 			
-			if( collider.Raycast( ray, out hitInfo, Mathf.Infinity ) ) {
+			if( GetComponent<Collider>().Raycast( ray, out hitInfo, Mathf.Infinity ) ) {
 				int x = Mathf.FloorToInt( hitInfo.point.x / _tileMap.tileSize);
 				int z = Mathf.FloorToInt( hitInfo.point.z / _tileMap.tileSize);
 
