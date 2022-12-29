@@ -753,7 +753,7 @@ PrefabInstance:
       objectReference: {fileID: 949051951}
     - target: {fileID: 11400000, guid: 841f50f78d76fa541bba4acab4e5d860, type: 3}
       propertyPath: woodCost
-      value: 200
+      value: 2000
       objectReference: {fileID: 0}
     - target: {fileID: 21200000, guid: 841f50f78d76fa541bba4acab4e5d860, type: 3}
       propertyPath: m_Size.x
