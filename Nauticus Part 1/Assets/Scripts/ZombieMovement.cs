@@ -29,7 +29,7 @@ public class ZombieMovement : MonoBehaviour {
 		
 		if (bloodyOverlay)
 		{
-			StartCoroutine(FlashBloodyOverlay(((float)(damage - 10)/(float)10)));
+			StartCoroutine(FlashBloodyOverlay(1));
 		}
 		else 
 		{
